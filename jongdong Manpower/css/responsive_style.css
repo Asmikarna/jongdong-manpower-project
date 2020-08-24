@@ -1,0 +1,69 @@
+@media (min-width: 768px) {
+header .navbar-expand-lg .navbar-nav .dropdown-menu { position: absolute; transition: all 0.3s ease;
+    display: block; visibility: hidden;  opacity: 0;  top: 120%; }
+header li.nav-item.dropdown:hover > .dropdown-menu { visibility: visible; opacity: 1; top: 100%; padding: 0; }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-header .navbar-expand-lg .navbar-nav .nav-link{font-size: 12px;padding: 10px;}
+    .achievements h1{font-size: 35px;}
+    .banner .carousel-caption{left: 35px;}
+        .procedure .text-wrap{height: auto;}
+        .procedure .text-wrap h3{font-size: 25px;}
+}
+
+@media screen and (max-width: 992px) {
+     .top-header .input-group{margin: 10px 0 0;}
+    .main-header .navbar-expand-lg .navbar-nav .nav-link{    padding: 6px;    font-size: 12px;}
+    .main-header .bg-light{margin: 10px 267px 10px;float: left;}
+    .banner .carousel-caption p{font-size: 17px;}
+    .banner .carousel-caption h1{font-size: 37px;}
+    .about h1{font-size: 18px;}
+    .about p{font-size: 12px;}
+    .categories ul li{font-size: 13px;}
+    .categories .carousel-inner .text-wrap h5>a{font-size: 12px;}
+    .procedure .text-wrap h3{font-size: 16px;}
+    .procedure .text-wrap{height: auto;}
+    .procedure p{font-size: 13px;}
+    .achievements h1{font-size: 35px;}
+    .achievements .count-text{font-size: 16px;}
+    .achievements .count-title{font-size: 30px;}
+    .achievements .text-center i{font-size: 35px;}
+    .footer h1{font-size: 12px;}
+    .footer h1{font-size: 13px;}
+    .footer .follow-us p>i{font-size: 25px;}
+}
+
+
+@media (max-width: 767px) {	
+    .fl_top_left ul li i{height: 25px;line-height: 25px; width: 25px;}
+    .top-header .input-group{margin: 25px 0;}
+    .main-header .menu{margin: -12px -70px 0;}
+    .main-header .bg-light{float: left;}
+    .main-header .logo{text-align: center;}
+    .banner .carousel-caption{left: 5px;width: 260px;}
+    .banner .carousel-caption h1{font-size: 26px;}
+    .banner .carousel-caption h4{font-size: 30px;}
+    .banner .carousel-caption p{font-size: 15px;}
+    .about p{font-size: 13px;}
+    .about .btn-success{margin: 0 0 15px;}
+    .procedure .text-wrap{height: auto;}
+    .services .service-wrap img{height: auto;}
+    .categories .carousel-control-prev{left: -50px;}
+    .categories .carousel-control-next{right: -50px;}
+    .about h1{font-size: 23px;}
+    .procedure h1{font-size: 32px;}
+    .procedure p{ font-size: 12px; }
+    .achievements h1{font-size: 32px;}
+    .achievements .count-title{font-size: 30px;}
+    .achievements .count-text{font-size: 14px;}
+    .achievements .text-center i{   font-size: 35px;}
+    .footer h1{font-size: 17px;}
+    .footer li{font-size: 13px;}
+    .footer .follow-us p>i{font-size: 30px;}
+}
+
+
+@media screen and (max-width: 430px) {
+  
+}
